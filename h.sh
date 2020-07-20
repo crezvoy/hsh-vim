@@ -14,6 +14,6 @@
 
 case "$HSH_ACTION" in
 	clone|bundle-out)
-		pk install vim
+		yes | "$HSH_ROOT/bin/pk" install vim
 		;;
 esac
